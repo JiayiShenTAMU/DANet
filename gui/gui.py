@@ -44,8 +44,8 @@ e = StringVar()
 submit_button = Button(top, text ='Open', command = showImg)
 submit_button.grid(row=0, column=0)
 
-status = os.system('sh ../danet/629.sh')
-print (status)
+#status = os.system('sh ../danet/629.sh')
+#print (status)
 
 label_name = ['airplane','automobile','bird','cat','deer','dog','frog','horse','ship','truck']
 
